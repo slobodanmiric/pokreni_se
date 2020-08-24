@@ -18,6 +18,17 @@ h1, h2, h3, h4 {
     font-weight: 900;
     letter-spacing: 2px;
 }
+h2 {
+    font-size: 3rem;
+}
+h2::after {
+    display: block;
+    content: "";
+    width: 20%;
+    height: 5px;
+    background: var(--secondaryColor);
+    margin: 30px auto;
+}
 /************
 main header
 ************/
@@ -68,6 +79,12 @@ nav {
 }
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: var(--white) !important;
+}
+/************
+uvod
+************/
+.uvod {
+    background: var(--primaryColor);
 }
 
 
