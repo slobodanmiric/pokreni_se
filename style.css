@@ -55,7 +55,7 @@ nav {
 .mainHeader hgroup {
     margin-top: 250px;
 }
-.mainHeader hgroup h1 {
+hgroup h1 {
     font-size: 6rem;
     color: var(--secondaryColor);
     text-shadow: var(--textShadow);
@@ -143,8 +143,18 @@ footer a {
 footer a:hover {
     color: var(--white);
 }
-
-
+/************
+blog header
+************/
+.blogHeader {
+    background-image: url(img/blog_header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.blogHeader hgroup {
+    margin-top: 150px;
+}
 
 
 
