@@ -13,6 +13,7 @@
 body {
     font-family: var(--bodyFont);
     font-size: var(--font);
+    background: var(--primaryColor);
 }
 h1, h2, h3, h4 {
     font-weight: 900;
@@ -155,9 +156,49 @@ blog header
 .blogHeader hgroup {
     margin-top: 150px;
 }
-
-
-
+.blog {
+    
+}
+.blog .text {
+    background: var(--secondaryColor);
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    top: -50px;
+    border-radius: 0 0 50px 0;
+    border: 1px solid var(--primaryColor);
+}
+.featured-image {
+    position: relative;
+}
+.featured-image img {
+    border-radius: 50px 0 0 0;
+}
+.meta {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: var(--secondaryColor);
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid var(--primaryColor);
+}
+.widget {
+    background: var(--secondaryColor);
+    line-height: 2;
+    border-radius: 50px 0 50px 0;
+}
+.widget ul li a {
+    color: var(--primaryColor);
+    border-bottom: 1px solid var(--primaryColor);
+}
+.widget ul li a:hover {
+    text-decoration: none;
+    background: var(--primaryColor);
+    color: var(--white);
+    transition: var(--transition);
+}
 
 
 
