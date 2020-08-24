@@ -7,6 +7,8 @@
     --white: #fff;
     --lightGray: #f1f1f1;
     --font: 16px;
+    --textShadow: 5px 5px 20px var(--primaryColor);
+    --transition: .3s ease;
 }
 body {
     font-family: var(--bodyFont);
@@ -16,3 +18,55 @@ h1, h2, h3, h4 {
     font-weight: 900;
     letter-spacing: 2px;
 }
+/************
+main header
+************/
+.mainHeader {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+nav {
+    position: relative;
+    top: 50px;
+}
+.mainHeader hgroup {
+    margin-top: 250px;
+}
+.mainHeader hgroup h1 {
+    font-size: 6rem;
+    color: var(--secondaryColor);
+    text-shadow: var(--textShadow);
+}
+.navbar-brand {
+    background: var(--secondaryColor);
+    padding: 10px;
+    color: var(--primaryColor) !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Faster One', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px
+}
+.navbar-brand:hover {
+    background: var(--primaryColor);
+    color: var(--secondaryColor) !important;
+    transition: var(--transition);
+}
+.navbar {
+    padding: 0 20px 0 0;
+    border-bottom: 5px solid var(--secondaryColor);
+    background: var(--primaryColor) !important;
+}
+.nav-link {
+    color: var(--secondaryColor) !important;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--white) !important;
+}
+
+
+
+
