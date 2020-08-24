@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:wght@300;400;700;900&display=swap');
+:root {
+    --bodyFont: 'Montserrat', sans-serif;
+    --primaryColor: #272b34;
+    --secondaryColor: #8df48b;
+    --accents: #d85080;
+    --white: #fff;
+    --lightGray: #f1f1f1;
+    --font: 16px;
+}
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--font);
+}
+h1, h2, h3, h4 {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
